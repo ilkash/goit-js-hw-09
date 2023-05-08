@@ -7,7 +7,7 @@ const daysref = document.querySelector('[data-days]');
 const hoursref = document.querySelector('[data-hours]');
 const minutesref = document.querySelector('[data-minutes]');
 const secondsref = document.querySelector('[data-seconds]');
-const divTimer = document.querySelector('.timer');
+
 const options = {
   enableTime: true,
   time_24hr: true,
@@ -63,4 +63,3 @@ input.addEventListener('input', e => {
     }, 1000);
   });
 });
-divTimer.style.display = 'flex';
